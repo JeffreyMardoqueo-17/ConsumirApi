@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Resultado de la API";
+}
+
+<h2>Datos de la API</h2>
+
+@if (ViewBag.Data != null)
+{
+    <pre>@ViewBag.Data</pre>
+}
+else
+{
+    <p>No se encontraron datos.</p>
+}
